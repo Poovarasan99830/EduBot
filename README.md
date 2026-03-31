@@ -207,11 +207,12 @@ If you like this project:
 
 ## Author
 
-Poovarasan
-Manikandan
+Poovarasan                                                                        
+Manikandan                                                                     
 Vainavin
 
-Python Full Stack Developer Integrate wit AI
+🚀 Python Full Stack Developer
+🤖 AI-Integrated Application Developer
 
 
 
