@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: edubot
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: edubot
+  template:
+    metadata:
+      labels:
+        app: edubot
+    spec:
+      containers:
+      - name: edubot
+        image: edubot-app
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8501
+        env:
+        - name: GROQ_API_KEY
+          value: "your_api_key"
